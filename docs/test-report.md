@@ -11,8 +11,9 @@ Environment: Windows host, bundled Python 3.12.14, pytest 8.3.5, Node.js 22, npm
 | API live smoke check | **Passed** | Loaded 4 tasks, evaluated two synthetic responses, reported 2 results and no failed checks for the compliant response |
 | Manual browser workflow | **Passed at the current browser viewport** | Submitted an incomplete response; UI showed missing bullet count and required phrase |
 | Deployment | **Not deployed** | No hosting configured |
-| GitHub publication | **Not published** | Local repository is committed; remote repository creation and push remain pending |
+| GitHub publication | **Published** | Public GitHub snapshot on `main`; source files verified |
 
 The CLI and tests use synthetic tasks. They do not measure model performance. The first pytest attempt could not use the host's temporary-directory fixture, so that test was adjusted to create and clean a temporary file inside the repository; the final run passed.
 
 Known gaps: no systematic desktop/mobile breakpoint matrix, persistent evaluation store, JSON Schema type validation, or deployment smoke test has been completed.
+

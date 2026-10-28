@@ -1,0 +1,2 @@
+- Use a unique password for every account.
+- Turn on MFA and store passwords in a password manager.

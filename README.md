@@ -2,7 +2,7 @@
 
 An independent portfolio project that checks explicit response constraints mechanically while leaving reasoning validity and factual correctness for human review. It is not affiliated with Handshake or an AI lab.
 
-Status: **Implemented, tested, and frontend build verified.** Not deployed or published to GitHub.
+Status: **Implemented, tested, and frontend build verified.** Not deployed. Public GitHub repository: https://github.com/JPPREMKUMAR/ai-instruction-following-benchmark.
 
 ## Features
 
@@ -56,3 +56,4 @@ See [`docs/requirements.md`](docs/requirements.md) for MVP acceptance criteria, 
 ## License
 
 MIT. See `LICENSE`.
+
